@@ -7,11 +7,10 @@ edition = "2021"
 eframe = "0.29"
 enigo = "0.3"
 rdev = "0.5"
+image = { version = "0.25", features = ["png", "jpeg"] }
 
-
-
-
-
-
-
-
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+strip = "symbols"
