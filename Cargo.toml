@@ -1,0 +1,17 @@
+[package]
+name = "apex_clicker"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.29"
+enigo = "0.3"
+rdev = "0.5"
+
+
+
+
+
+
+
+
